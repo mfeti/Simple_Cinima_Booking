@@ -1,0 +1,7 @@
+﻿@model string
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <div class="text-white" style="position:fixed; right: 90px; bottom:30px; z-index: 1;">
+        <a class="btn btn-success" asp-asp-controller="@Model" asp-action="Create"><i class="bi bi-plus-circle"></i>Add New</a>
+    </div>
+}

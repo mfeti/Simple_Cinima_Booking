@@ -1,0 +1,30 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56832",
+      "sslPort": 44385
+    }
+  },
+  "profiles": {
+    "Simple_Cinima_Booking": {
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "launchUrl": "Movies",
+        "launchBrowser": true,
+        "applicationUrl": "https://localhost:7166;http://localhost:5149",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+        "launchBrowser": true,
+      "launchUrl": "Movies",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

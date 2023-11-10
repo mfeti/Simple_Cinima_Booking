@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Simple_Cinima_Booking.props" />
+</Project>

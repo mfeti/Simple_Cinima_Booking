@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Cinemas\**" />
+    <Content Remove="Views\Cinemas\**" />
+    <EmbeddedResource Remove="Views\Cinemas\**" />
+    <None Remove="Views\Cinemas\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\ViewModels\lilomzat.drm~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\AccessDenied.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Account\Register.cshtml" />
+    <None Include="Views\Account\RegisterCompleted.cshtml" />
+    <None Include="Views\Account\Users.cshtml" />
+    <None Include="Views\Orders\Index.cshtml" />
+    <None Include="Views\Orders\OrderCompleted.cshtml" />
+    <None Include="Views\Orders\ShoppingCart.cshtml" />
+    <None Include="Views\Shared\Components\ShoppingCartSummary\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.24" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.24" />
+  </ItemGroup>
+
+</Project>
