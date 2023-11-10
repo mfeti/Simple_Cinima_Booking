@@ -8,6 +8,8 @@ This is a simple cinema ticket booking system built in ASP.NET Core. It allows u
 Browse available movies and showtimes
 Secure payment processing
 User registration and login
+managing Cinima and Actors
+... and so on.
 
 #Installation
 
