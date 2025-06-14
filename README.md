@@ -1,7 +1,7 @@
 
 ---
 
-# 🎬 SIMPLE CINEMA BOOKING  
+# 🎬 SIMPLE CINIMA BOOKING  
 
 A lightweight ASP.NET Core ticket booking system for cinemas.  
 
