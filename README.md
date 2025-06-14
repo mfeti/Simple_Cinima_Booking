@@ -1,43 +1,63 @@
-# Simple_Cinima_Booking
-# Overview
 
-This is a simple cinema ticket booking system built in ASP.NET Core. It allows users to browse available movies, and securely purchase tickets online.
+---
 
-# Features
+# 🎬 SIMPLE CINEMA BOOKING  
 
-Browse available movies and showtimes
-Secure payment processing
-User registration and login
-managing Cinima and Actors
-... and so on.
+A lightweight ASP.NET Core ticket booking system for cinemas.  
 
-#Installation
+---
 
-To install the cinema ticket booking system, follow these steps:
+## 🚀 **Quick Start**  
 
-Clone the repository to your local machine.
-Install the .NET Core SDK.
-Install the required dependencies using the following command:
-dotnet restore
-Build the application using the following command:
-dotnet build
-Start the application using the following command:
-dotnet run
-Usage
+### **Prerequisites**  
+- [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)  
+- SQL Server (LocalDB) or SQLite  
 
-# To use the cinema ticket booking system, simply open a web browser and navigate to the following URL:
+### **Run Locally**  
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/your-username/Simple_Cinema_Booking.git
+   cd Simple_Cinema_Booking
+   ```  
+2. Restore & run:  
+   ```bash
+   dotnet restore
+   dotnet run
+   ```  
+3. Open in browser:  
+   🔗 [http://localhost:5000](http://localhost:5000)  
 
-http://localhost:5000/
-You will be able to browse available movies and showtimes, select seats, and purchase tickets. You will also need to register for an account and login before you can purchase tickets.
+---
 
-# Contributing
+## ⚙️ **Configuration**  
+### Database Setup  
+1. Update `appsettings.json`:  
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CinemaDB;Trusted_Connection=True;"
+   }
+   ```  
+2. Apply migrations:  
+   ```bash
+   dotnet ef database update
+   ```  
 
-We welcome contributions to the cinema ticket booking system. If you find a bug or have a suggestion for a new feature, please feel free to create an issue on GitHub.
+---
 
-# License
+## ✨ **Features**  
+- Browse movies & showtimes  
+- Secure user authentication  
+- Ticket purchase flow  
+- Admin panel (manage movies, actors, etc.)  
 
-The cinema ticket booking system is licensed under the MIT License. This means that you are free to use, modify, and distribute the system for any purpose.
+---
 
-# Support
+## 📜 **License**  
+MIT © 2023 – Free to use, modify, and distribute.  
 
-If you need help using the cinema ticket booking system, please feel free to contact us at mfeti2175@gmail.com
+---
+
+## ❓ **Support**  
+Got stuck? Email [mfeti2175@gmail.com](mailto:mfeti2175@gmail.com) or open an issue.  
+
+--- 
